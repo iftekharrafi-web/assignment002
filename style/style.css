@@ -2,3 +2,65 @@ main{
     width: 1200px;
     margin: 0 auto;
 }
+
+/* nav bar style start */
+
+.nav-container{
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+.logo{
+    display: flex;
+}
+.school{
+    font-weight: bold;
+    font-size: 25px;
+}
+.nav{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+    
+}
+.home{
+    color: orange;
+}
+.about{
+    color: skyblue;
+}
+.facilities{
+    color: #05D4DF;
+}
+.admission{
+    color: #5D58EF;
+}
+.btn{
+    background-color: orange;
+    font-weight: 800;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 15px;
+    border: none;
+}
+
+@media screen and (max-width: 576px) {
+    ..school{
+        display: none;
+    }
+    .nav{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    .logo{
+        float: left;
+    }
+
+    
+}
