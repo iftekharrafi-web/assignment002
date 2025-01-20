@@ -43,13 +43,13 @@ main{
     background-color: orange;
     font-weight: 800;
     color: white;
-    padding: 12px 30px;
+    padding: 10px 30px;
     border-radius: 15px;
     border: none;
 }
 
 @media screen and (max-width: 576px) {
-    ..school{
+    /* .school{
         display: none;
     }
     .nav{
@@ -60,7 +60,64 @@ main{
     }
     .logo{
         float: left;
-    }
+    } */
+     .hide{
+        display: none;
+     }
 
     
 }
+
+/* hero section style start*/
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.text{
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+.title{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.title-part01{
+    color: orange;
+}
+.title-part02{
+    color: skyblue;
+}
+.btn02{
+    background-color: black;
+    font-weight: 800;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: none;
+}
+.para-color{
+    color: gray;
+}
+
+@media screen and (max-width: 576px) {
+    .container{
+        flex-direction:column-reverse;
+        /* align-items: center; */
+        margin-left: 0 auto;
+        width: 350px;
+        
+    }
+    .text{
+        /* align-items: center;
+        justify-content: center; */
+        text-align: center;
+    }
+    
+}
+
+
+
