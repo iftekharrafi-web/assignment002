@@ -49,36 +49,36 @@ main{
 }
 
 @media screen and (max-width: 576px) {
-    /* .school{
-        display: none;
-    }
-    .nav{
-        display: none;
-    }
-    .btn{
-        display: none;
-    }
-    .logo{
-        float: left;
-    } */
+    
      .hide{
         display: none;
+     }
+     .nav-container{
+        width: 350px;
      }
 
     
 }
 
+/* nav bar style end */
+
+
+
 /* hero section style start*/
 
 .container{
     display: flex;
+    justify-content:space-between;
     align-items: center;
-    gap: 30px;
+    gap: 200px;
+    
 }
 .text{
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* text-align: center; */
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    padding-left: 0px; 
+    margin-left: 0px;
 }
 .title{
     font-weight: bold;
@@ -106,18 +106,106 @@ main{
 @media screen and (max-width: 576px) {
     .container{
         flex-direction:column-reverse;
-        /* align-items: center; */
+        align-items: center;
         margin-left: 0 auto;
-        width: 350px;
+        width: 300px;
+        margin-left: 0px;
+        gap: 0px;
         
     }
+    .hero-img{
+        width: 300px;
+        margin-left: 0px;
+    }
+    main{
+        width: 300px;
+        margin-left: 0px;
+    }
+    
     .text{
-        /* align-items: center;
-        justify-content: center; */
+        align-items: center;
+        justify-content: center;
         text-align: center;
+        padding-left: 150px;
     }
     
 }
 
+/* hero section style end*/
 
+/* Standard Curriculum style start*/
+
+.three-cart{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.cart-title{
+    text-align: center;
+    font-size: 40px;
+}
+.kinder{
+    width: 360px;
+    height: 420px;
+    border-radius: 10px;
+    background-image: linear-gradient(#DEF5FF, white );
+    justify-items: center;
+    text-align: center;
+    padding-top: 100px;
+    
+    
+}
+.kinder-read{
+    color: #64C8FF;
+}
+.elementary{
+    width: 360px;
+    height: 420px;
+    border-radius: 10px;
+    background-image: linear-gradient(#FFF4DC, white );
+    justify-items: center;
+    text-align: center;
+    padding-top: 100px;
+}
+.elementary-read{
+    color: #F0AA00;
+}
+.middle{
+    width: 360px;
+    height: 420px;
+    border-radius: 10px;
+    background-image: linear-gradient(#F2E8FF, white );
+    justify-items: center;
+    text-align: center;
+    padding-top: 100px;
+}
+.middle-read{
+    color: #8700FF;
+}
+
+.left-arrow{
+    width: 50px;
+}
+.right-arrow{
+    width: 50px;
+}
+.arrow{
+    padding-left: 900px;
+}
+
+
+@media screen and (max-width: 576px){
+    .three-cart{
+        flex-direction: column;
+        width: 300px;
+        align-items: center;
+    }
+    .arrow{
+        display: none;
+    }
+}
+
+
+/* Standard Curriculum style end*/
 
