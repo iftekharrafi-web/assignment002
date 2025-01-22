@@ -119,6 +119,7 @@ main{
         width: 300px;
         margin-left: 0px;
     }
+    
     main{
         width: 300px;
         margin-left: 0px;
@@ -218,51 +219,67 @@ main{
 /* Standard Curriculum style end*/
 
 
+.section-title{
+    margin-top: 80px;
+}
+.section-title{
+    text-align: center;
+    font-size: 40px;
+}
+
+.story-left{
+    width: 400px;
+    height: 630px;
+    background-color: #FFF4DC;
+    border-radius: 15px;
+}
+.img01{
+    width: 400px;
+}
+.btn-01{
+    width: 150px;
+    height: 25px;
+    background-color: #3CD8E8;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    margin-left: 40px;
+    margin-top: -40px;
+    
+}
+.story02, .story03, .story04, .story05{
+    width: 300px;
+    height: 300px;
+    background-color: #FFF4DC;
+    border-radius: 15px;
+    
+}
+.img02, .img03, .img04, .img05{
+    width: 300px;
+}
+
 .our-stories{
-    max-width: 1200px;
-    margin: 0 auto;
-    background-image:repeating-linear-gradient(white, #FFDEA4);
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
+    gap: 30px;
+    margin-top: 80px;
     
-    
-    
 }
-.a-fun-toddler{
-    width: 550px;
-    height: 550px;
-    background-color: white;
-    border-radius: 10px;
-
-}
-
-.story-02{
-    width: 300px;
-    height: 320px;
-    background-color: white;
-    border-radius: 10px;
-}
-.story-03{
-    width: 300px;
-    height: 320px;
-    background-color: white;
-    border-radius: 10px;
-}
-.story-04{
-    width: 300px;
-    height: 320px;
-    background-color: white;
-    border-radius: 10px;
-}
-.story-05{
-    width: 300px;
-    height: 320px;
-    background-color: white;
-    border-radius: 10px;
-}
-.story-section{
+.story-right{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
 }
-
-
+.btn-02, .btn-03, .btn-04, .btn-05{
+    width: 150px;
+    height: 25px;
+    background-color: #3CD8E8;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    margin-left: 40px;
+    margin-top: -40px; 
+}
+.title01, .text-01, .text-02, .text-03, .text-04, .text-05{
+    padding-left: 40px;
+}
