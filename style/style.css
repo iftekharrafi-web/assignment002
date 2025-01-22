@@ -138,11 +138,7 @@ main{
 
 /* Standard Curriculum style start*/
 
-/* .standerd-curriculam{
-    background-image: url(assets/bg.png);
-    max-width: 1200px;
-    margin: 0 auto;
-} */
+
 
 .three-cart{
     width: 1200px;
@@ -218,6 +214,8 @@ main{
 
 /* Standard Curriculum style end*/
 
+/* Our Story style start*/
+
 
 .section-title{
     margin-top: 80px;
@@ -283,3 +281,55 @@ main{
 .title01, .text-01, .text-02, .text-03, .text-04, .text-05{
     padding-left: 40px;
 }
+.our-stories-btn{
+    background-color: black;
+    font-weight: 800;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: none;
+    margin-left: 900px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 576px) {
+    .story-left{
+        display: none;
+    
+    }
+    .story-right{
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    ..our-stories-btn{
+        align-items: center;
+    }
+}
+
+/* Our Story style end*/
+
+
+/* footer style start */
+
+.footer{
+    width: 1200px;
+    background-color: #01ACFD;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-around;
+    padding-top: 20px;
+}
+.footer-logo{
+    display: flex;
+
+}
+
+@media screen and (max-width: 576px) {
+    .footer{
+        flex-direction: column;
+        width: 100%;
+    }    
+}
+
+/* footer style end */
